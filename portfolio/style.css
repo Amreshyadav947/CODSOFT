@@ -1,0 +1,813 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*Nav bar*/
+
+.dj{
+    background-color: black;
+}
+
+#nav{
+    z-index: 99;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 30px 70px;
+    padding-left: 200px;
+    background-color: rgb(250, 179, 128);
+}
+
+#nav h2{
+    font-size: 30px;
+    color: aqua;
+    margin-left:5px ;
+    text-shadow: 0px 0px 40px aqua;
+}
+
+#na2{
+    display: flex;
+    gap: 50px;
+    margin-left: 500px;
+    cursor: pointer;
+}
+/* About*/
+.allco{
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    padding: 30px;
+    margin-left: 150px;
+    margin-top: 0px;
+    color: white;
+    
+}
+
+.hii h1{
+    font-size: 70px;
+}
+
+.hii h2{
+    font-size: 70px;
+    color: aqua;
+    text-shadow: 10px 10px 40px aqua;
+}
+
+.im span{
+    color: aqua;
+}
+
+.im p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.bbt{
+    padding: 5px 15px;
+    border-radius: 30%;
+    background-color: aqua;
+    box-shadow: 0px 0px 10px aqua,
+                0px 0px 10px aqua;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.bbt:hover{
+    border: 2px solid pink;
+    box-shadow: 0px 0px 10px pink,
+                0px 0px 10px pink;
+                background-color: antiquewhite;
+                scale: 0.9;
+    cursor: pointer;
+}
+
+.fotter5{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: aqua;
+    font-size: 30px;
+    margin-top: 20px;
+    
+}
+
+.fotter5 .linkdin:hover{
+    scale: 0.8;
+    cursor: pointer;
+}
+
+.fotter5 .git:hover{
+    scale: 0.8;
+    cursor: pointer;
+}
+
+.fotter5 .instagram:hover{
+    scale: 0.8;
+    cursor: pointer;
+}
+
+.fotter5 .twitter:hover{
+    scale: 0.8;
+    cursor: pointer;
+}
+.amn{
+    position: absolute;
+    min-height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 2px solid aqua;
+    background-image: url('./images/Amresh.png');
+    background-position: 0%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 10px aqua;
+    margin-left: 1100px;
+    margin-top: -550px;
+}
+
+
+.amn:hover{
+    border-color: pink;
+    box-shadow: 0px 0px 10px pink;
+}
+
+/*Education*/
+
+.line{
+    background-color: rgb(107, 102, 102);
+    width: 100%;
+    height: 770px;
+    text-align: center;
+}
+
+.line h1{
+    font-size: 60px;
+    color: white;
+    padding-top:20px ;
+    text-shadow: 2px 2px rgb(50, 5, 252);
+
+}
+
+.strate{
+    position: absolute;
+    text-shadow: 10px 10px 40px aqua;
+   height: 620px;
+   border-right: 4px solid aqua;   
+   margin-top: 50px;
+   margin-left: 780px;
+   
+}
+
+.strate h1{
+    position: absolute;
+    font-size: 80px;
+    text-shadow: 10px 10px 40px aqua;
+    color: aqua;
+    margin-left: -8px;
+    margin-top: -50px;
+    z-index: 1;
+}
+
+.strate h2{
+    position: absolute;
+    font-size: 80px;
+    text-shadow: 10px 10px 40px aqua;
+    color: aqua;
+    margin-left: -8px;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.strate h3{
+    position: absolute;
+    font-size: 80px;
+    text-shadow: 10px 10px 40px aqua;
+    color: aqua;
+    margin-left: -8px;
+    margin-top: 270px;
+    z-index: 1;
+}
+
+.strate h4{
+    position: absolute;
+    font-size: 80px;
+    text-shadow: 10px 10px 40px aqua;
+    color:aqua;
+    margin-left: -8px;
+    margin-top: 420px;
+    z-index: 1;
+}
+
+.fir{
+    position: relative;
+    height: 130px;
+    width: 400px;
+    border: 2px solid aqua;
+    border-top-right-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    margin-left: 370px;
+    flex-direction: column;
+    top: 0px;
+    margin-top: 70px;
+    box-shadow: 0px 0px 5px aqua;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+
+.fir h2{
+    margin-top: 20px;
+}
+
+.fir p{
+    margin-top: 20px;
+}
+
+.fir:hover{
+    background-color: rgb(107, 151, 26);
+    scale: 1.03;
+    transition: 1s;
+    transition-timing-function:ease-in-out ;
+    text-shadow: 0px 0px 20px red;
+}
+
+
+.se{
+    position: relative;
+    height: 130px;
+    width: 400px;
+    border: 2px solid aqua;
+    border-top-right-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    margin-left: 800px;
+    flex-direction: column;
+    top: 0px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px aqua;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+
+.se h2{
+    margin-top: 20px;
+}
+
+.se p{
+    margin-top: 20px;
+}
+
+.se:hover{
+    background-color: rgb(107, 151, 26);
+    scale: 1.03;
+    transition: 1s;
+    transition-timing-function:ease-in-out ;
+    text-shadow: 0px 0px 20px red;
+}
+
+
+.th{
+    position: relative;
+    height: 130px;
+    width: 400px;
+    border: 2px solid aqua;
+    border-top-right-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    margin-left: 370px;
+    flex-direction: column;
+    top: 0px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px aqua;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+
+.th h2{
+    margin-top: 20px;
+}
+
+.th p{
+    margin-top: 20px;
+}
+
+.th:hover{
+    background-color: rgb(107, 151, 26);
+    scale: 1.03;
+    transition: 1s;
+    transition-timing-function:ease-in-out ;
+    text-shadow: 0px 0px 20px red;
+}
+
+
+
+.fo{
+    position: relative;
+    height: 130px;
+    width: 400px;
+    border: 2px solid aqua;
+    border-top-right-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    margin-left: 800px;
+    flex-direction: column;
+    top: 0px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px aqua;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+
+.fo h2{
+    margin-top: 20px;
+}
+
+.fo p{
+    margin-top: 20px;
+}
+
+.fo:hover{
+    background-color: rgb(107, 151, 26);
+    scale: 1.03;
+    transition: 1s;
+    transition-timing-function:ease-in-out ;
+    text-shadow: 0px 0px 20px red;
+}
+
+/* My Service*/
+
+#mamu{
+    width: 100%;
+    height: 765px;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+
+.tex h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 2px 2px aqua;
+}
+
+.cont{
+    display: flex; 
+    padding-bottom: 20px;  
+    gap: 20px;
+}
+
+
+.cont2{
+    display: flex;
+    gap: 20px;   
+}
+
+.co{
+
+    border-radius: 10px;
+    height: 280px;
+    width: 400px;
+    border: 3px solid aqua;
+    box-shadow: 5px 5px   10px aqua;
+    background-color: aqua;
+    color: black;
+}
+
+.co:hover{
+    background-color: white;
+}
+
+.server{
+    margin-left: 400px;
+}
+
+/* My projects Section*/
+
+.bac{
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px rgb(0, 255, 115);
+    margin-top: 0px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    background-color: #222;
+}
+
+.all-pho{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #222;
+    
+}
+
+.wrapper{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.card{
+    width:280px;
+    height: 360px;
+    padding: 1rem 6rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover{
+    transform: translateY(20px);
+}
+
+.card::before{
+    content: "";
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150, 201, 61, 1));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+
+.card:hover:before{
+    opacity: 1;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card .info{
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.card .info:hover{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.card .info h1{
+    margin: 0;
+}
+
+.card .info p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.card .info .btn{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    color: #000;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.card .info .btn:hover{
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+}
+
+.pp{
+    width: 100%;
+    height: 199px;
+    background-color: #222;
+}
+
+/* My Team Coder Section*/
+
+.main{
+    background-color: rgb(121, 118, 118);
+    width: 100%;
+    height: 775px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main h1{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    font-size: 70px;
+    text-shadow: 2px 2px rgb(255, 8, 0);
+}
+.container{
+    
+     justify-content: center;
+     display: flex;
+     gap: 50px;
+     
+}
+.cir{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid aqua;
+    background-image: url('/images/vivek-Kumar.jpg');
+    background-position: 0%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 80px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px aqua, inset
+    0px 0px 10px aqua;
+}
+
+
+.sec .cir{
+    background-image: url('/images/Deepak.jpg');
+     background-position: 0%;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+ }
+ .third .cir{
+    background-image: url('/images/Naman-Kumar.jpg');
+     background-position: 0%;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+ }
+  
+
+
+.container .first{
+    height: 500px;
+    width: 300px;
+    border: 2px solid rgb(62, 62, 66);  
+    border-radius: 10px; 
+    background-color: black;
+    color: white;
+}
+
+.container .sec{
+    height: 500px;
+    width: 300px;
+    border: 2px solid rgb(62, 62, 66); 
+    border-radius: 10px;  
+    background-color: black;
+    color: white;
+}
+
+.container .third{
+    height: 500px;
+    width: 300px;
+    border: 2px solid rgb(62, 62, 66);   
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.first p{
+    margin-bottom: 20px;
+    padding: 30px
+    
+}
+.first h3{
+    position: relative;
+    top: 7px;
+    text-align: center;
+    
+}
+
+.sec p{
+    margin-bottom: 20px;
+    padding: 30px
+}
+.sec h3{
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+
+.third p{
+    margin-bottom: 20px;
+    padding: 30px
+}
+.third h3{
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+
+/* Contact Me*/
+
+.page{
+    border: 2px solid black;
+    color: aliceblue;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.page p{
+    color: aqua;
+    display: inline;
+    font-size: 50px;
+}
+
+.page h1{
+    font-size: 50px;
+}
+.input{
+    margin-top: 20px;
+    position: relative;
+    right: 140px;
+    
+    
+}
+.input .bb{
+    position: relative;
+    top: 18px;
+}
+
+.input input{
+    padding: 20px;
+    border: 1px solid aqua;
+    border-radius: 5%;
+    margin-top: 20px;
+    height: 50px;
+    width: 350px;
+    box-shadow: 0px 0px 10px aqua, inset
+    0px 0px 10px aqua;         
+    background-color: rgb(85, 80, 80);
+    color: antiquewhite;
+    display: inline;
+    
+}
+
+.input .input3{
+    position: absolute;
+    padding: 20px;
+    border: 1px solid aqua;
+    border-radius: 3%;
+    margin-top: 50px;
+    width: 350px;
+    background-color: rgb(85, 80, 80);
+    color: antiquewhite;
+    display: inline;
+    left: 1000px;
+    height: 170px;   
+}
+
+
+.input button{
+    position: absolute;
+    height: 35px;
+    border: 3px solid aqua;
+    margin-top: 20px;
+    width: 120px;
+    background-color: aqua;
+    color: rgb(20, 20, 19);
+    border-radius: 30%;
+    left: 1100px;
+    box-shadow: 1px 1px 20px #14eacfff, inset
+                1px 1px 40px #14eacfff;
+    top: 220px;   
+}
+
+/*Footer*/
+
+.foter-main{
+    width: 100%;
+    color: antiquewhite;
+    height: 175px;
+    background-color: rgb(102, 95, 95);
+    text-align: center;
+    align-content: center;
+}
+
+.text{
+    display: flex;
+    margin-left: 620px;
+    gap: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    
+
+}
+
+.fotter{
+    display: flex;
+    gap: 20px;
+    margin-left: 730px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: aqua;
+    font-size: 30px;
+}
+
+/*last socilmedia links*/
+
+.fotter .linkdin:hover{
+    scale: 0.8;
+    cursor: pointer;
+}
+
+.fotter .git:hover{
+    scale: 0.8;
+    cursor: pointer;
+}
+
+.fotter .instagram:hover{
+    scale: 0.8;
+    cursor: pointer;
+}
+
+.fotter .twitter:hover{
+    scale: 0.8;
+    cursor: pointer;
+}
+
+.text .ff:hover{
+    box-shadow: 0px 0px  10px aqua;
+    cursor: pointer;
+}
+
+.text .ser:hover{
+    box-shadow: 0px 0px  10px aqua;
+    cursor: pointer;
+}
+
+.text .abo:hover{
+    box-shadow: 0px 0px  10px aqua;
+    cursor: pointer;
+}
+
+.text .con:hover{
+    box-shadow: 0px 0px  10px aqua;
+    cursor: pointer;
+}
+
+.text .my:hover{
+    box-shadow: 0px 0px  10px aqua;
+    cursor: pointer;
+}
+
+#cursor{
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    transition: all linear 0.3s;
+}
+
+.download-btn{
+    position:absolute;
+    margin-top: 30px;
+    background-color: dodgerblue;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
